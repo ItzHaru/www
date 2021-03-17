@@ -73,10 +73,3 @@ a:hover {
 a:active {
     color: rgb(55, 0, 143);
 }
-
-@media only screen and (max-width: 1200px) {
-    main, header, .menu {
-        width: 95%;
-        margin: 10px auto;
-    }   
-}
