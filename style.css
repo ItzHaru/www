@@ -1,13 +1,22 @@
 h1 {
     text-align: center;
-    background-color: rgb(1, 83, 138);
+    background-color: rgb(131, 83, 207);
     padding: 40px;
     margin-top: 1px;
-    color:rgb(255, 255, 255)
+    color:#eee;     
+}
+
+h2 {
+    border-bottom: 3px solid rgb(131, 83, 207);
+    padding-bottom: 5px;
+    color: rgb(32, 0, 70);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    font-size: 20px;
+    color: rgb(29, 0, 61);
 }
 
 main {
@@ -16,14 +25,58 @@ main {
 }
 
 .otazka {
-    color: rgb(21, 67, 88);
-    background-color: #ddd; 
+    color: rgb(52, 21, 88);
+    background-color: rgb(225, 209, 255); 
     padding: 1em;
     font-size: 1.2em;
     margin: 1em 0;
 }
 
 .odpoved {
-    border-left: 10px solid #aaa;
-    padding-left: 20px;
+    border-left: 10px solid rgb(117, 92, 145);
+    padding: 1px 0px 1px 20px;
+}
+
+table, td, th {
+    border: 1px solid rgb(41, 0, 94);
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px 50px;
+}
+
+th {
+    background-color: rgb(100, 61, 133);
+    color: #eee;
+}
+
+caption {
+    font-size: 1.2em;
+    background-color: rgb(71, 31, 109);
+    color: #eee;
+    padding 10px;
+}
+
+ol#search ul {
+    list-style-type: disc;  
+}
+
+a {
+    color: rgb(94, 19, 165);
+}
+
+a:hover {
+    color: rgb(135, 48, 248);
+}
+
+a:active {
+    color: rgb(55, 0, 143);
+}
+
+@media only screen and (max-width: 1200px) {
+    main, header, .menu {
+        width: 95%;
+        margin: 10px auto;
+    }   
 }
